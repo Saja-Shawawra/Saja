@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>The Fragrance of Life</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Video and audio Section -->
+        <section class="hero-video">
+            <video id="backgroundVideo" class="background-video" autoplay muted loop playsinline>
+                <source src="3d28353f4241b91c195675106feb1547.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+   
+                <h1>Indulge in Luxury</h1>
+                <p>Where elegance meets excellence, discover the world of refined living</p>
+                
+            </div>
+        </section>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const video = document.getElementById("backgroundVideo");
+        
+                // Attempt to autoplay the video and handle errors
+                video.play().catch((err) => {
+                    console.error("Auto-play failed:", err);
+                });
+        
+                // Unmute the video (if allowed by browser policies)
+                video.muted = false;
+            });
+        </script>
+        
+        
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-image left">
+                    <img src="/images/image1.jpg" alt="Si">
+                </div>
+                <div class="hero-content">
+                    <h1>The Fragrance of Life</h1>
+                    <p>Buy Popular Colognes on Sale at a Discount</p>
+                    <div class="hero-offer">
+                        <span>25% Off</span>
+                        <p>on all New Arrivals</p>
+                    </div>
+                    <div class="views">
+                        <p><strong>1.2M Views</strong> | <strong>300+ Products</strong></p>
+                    </div>
+                </div>
+                <div class="hero-image right">
+                    <img src="/images/image2.jpg" alt="Fragrance Bottle">
+                </div>
+            </div>
+        </section>
+        
+        
+        
+
+        <section class="categories">
+            <div class="category1">
+                <img src="/images/image3.jpg" alt="Fresh Fragrance">
+                <h2>Fresh Fragrances</h2>
+            </div>
+            <div class="category2">
+                <img src="/images/image4.jpg"alt ="Floral Fragrance">
+                <h2>Floral Fragrances</h2>
+            </div>
+            <div class="category3">
+                <img src="/images/image5.jpg" alt="Oceanic Fragrance">
+                <h2>Oceanic Fragrances</h2>
+            </div>
+        </section>
+
+        <section class="best-sellers">
+            <h2>Best Selling Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="/images/image6.jpg" alt="Valentino">
+                    <h3>Valentino</h3>
+                    <span>$299</span>
+                 
+                </div>
+                <div class="product">
+                    <img src="/images/image7.jpg" alt="Chanel N5">
+                    <h3>Chanel N5</h3>
+                    <span>$600</span>
+            
+                </div>
+                <div class="product">
+                    <img src="/images/image8.jpg" alt="Miss Dior">
+                    <h3>Miss Dior</h3>
+                    <span>$500</span>
+                 
+                </div>
+                <div class="product">
+                    <img src="/images/image9.jpg" alt="Coco Chanel Paris">
+                    <h3>Coco Chanel Paris</h3>
+                    <span>$150</span>
+                
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>High quality is the only core value for us.</h2>
+            <p>Here’s a refined text you can use for your project:<br>
+
+                
+                
+                "Discover the Art of Fragrance" <br>
+                Unveil a world where every scent tells a story. From timeless classics to modern masterpieces, our collection captures the essence of elegance and sophistication. Let your signature fragrance leave a lasting impression.<br>  
+                
+                Special Offer: 25% Off<br>
+                Shop our exclusive range today and indulge in the luxury you deserve.  <br>
+                
+                
+                
+                Feel free to adjust this to fit the tone of your website!</p>
+         
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Perfume Store. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
