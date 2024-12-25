@@ -4,83 +4,83 @@
         "name": "Luxury Rose",
         "description": "A timeless floral scent",
         "price": 300,
-        "image": "/Saja-Shawawra/images/image10.jpg"
+        "image": "images/image10.jpg"
     },
     {
         "id": 2,
         "name": "Citrus Breeze",
         "description": "Refreshing and vibrant",
         "price": 190,
-        "image": "/Saja-Shawawra/images/image11.jpg"
+        "image": "images/image11.jpg"
     },
     {
         "id": 3,
         "name": "Vanilla Spice",
         "description": "Warm and inviting",
         "price": 400,
-        "image": "/Saja-Shawawra/images/image12.jpg"
+        "image": "images/image12.jpg"
     },
     {
         "id": 4,
         "name": "Valentino",
         "description": "A luxurious and vibrant fragrance",
         "price": 299,
-        "image": "/Saja-Shawawra/images/image6.jpg"
+        "image": "images/image6.jpg"
     },
     {
         "id": 5,
         "name": "Chanel N5",
         "description": "A timeless classic perfume",
         "price": 600,
-        "image": "/Saja-Shawawra/images/image7.jpg"
+        "image": "images/image7.jpg"
     },
     {
         "id": 6,
         "name": "Miss Dior",
         "description": "A romantic and elegant scent",
         "price": 500,
-        "image": "/Saja-Shawawra/images/image8.jpg"
+        "image": "images/image8.jpg"
     },
     {
         "id": 7,
         "name": "Coco Chanel Paris",
         "description": "A chic and sophisticated fragrance",
         "price": 150,
-        "image": "/Saja-Shawawra/images/image9.jpg"
+        "image": "images/image9.jpg"
     },
     {
         "id": 8,
         "name": "Fresh Fragrance",
         "description": "Clean and refreshing scents for every occasion",
         "price": 399,
-        "image": "/Saja-Shawawra/images/image3.jpg"
+        "image": "images/image3.jpg"
     },
     {
         "id": 9,
         "name": "Floral Fragrance",
         "description": "Romantic floral tones that evoke memories",
         "price": 500,
-        "image": "/Saja-Shawawra/images/image4.jpg"
+        "image": "images/image4.jpg"
     },
     {
         "id": 10,
         "name": "Oceanic Fragrance",
         "description": "Crisp and invigorating like the ocean breeze",
         "price": 800,
-        "image": "/Saja-Shawawra/images/image5.jpg"
+        "image": "images/image5.jpg"
     },
     {
         "id": 11,
         "name": "Dilis Parfum",
         "description": "Crisp and invigorating",
         "price": 200,
-        "image": "/Saja-Shawawra/images/image13.jpg"
+        "image": "images/image13.jpg"
     },
     {
         "id": 12,
         "name": "GOUTAL",
         "description": "Romantic floral",
         "price": 300,
-        "image": "/Saja-Shawawra/images/image14.jpg"
+        "image": "images/image14.jpg"
     }
 ]
